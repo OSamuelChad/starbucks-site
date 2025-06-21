@@ -47,6 +47,13 @@ span {
   font-weight: 900;
 }
 
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 90%;
+  text-align: center;
+}
+
 /* =================================
    4. LAYOUT PRINCIPAL
    ================================= */
