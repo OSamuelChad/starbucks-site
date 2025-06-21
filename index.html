@@ -18,6 +18,7 @@
       <img src="img/logo.png" alt="Logo Starbucks" />
     </header>
     <main>
+
       <div class="conteudo">
         <div class="caixa-texto">
           <h1>It's not just a Coffee It's <span>Starbucks</span></h1>
@@ -27,11 +28,12 @@
             numquam. Itaque illum quis molestiae eius dolor! Nam, fugiat?
             Quibusdam, veniam at?
           </p>
-          <button><a href="#">promotions</a></button>
+          <button>Promotions</button>
         </div>
 
         <div class="caixa-imagem">
           <img
+            onclick="trocarImagem()"
             class="copo-grande"
             src="img/img1.png"
             alt="imagem de copo Starbucks"
@@ -42,21 +44,26 @@
     <footer>
       <div class="menu">
         <img
+          onclick="trocarCor('#017143')"
           class="botao-menu"
           src="img/thumb1.png"
           alt="imagem de copo pequeno Starbucks"
         />
         <img
+          onclick="trocarCor('#eb7495')"
           class="botao-menu"
           src="img/thumb2.png"
           alt="imagem de copo pequeno Starbucks"
         />
         <img
+          onclick="trocarCor('#d752b1')"
           class="botao-menu"
           src="img/thumb3.png"
           alt="imagem de copo pequeno Starbucks"
         />
       </div>
     </footer>
+    <div class="circulo"></div>
   </body>
+  <script src="script.js"></script>
 </html>
